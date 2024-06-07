@@ -1,0 +1,15 @@
+{
+  "name": "nodejs---server-side-testing-guide",
+  "version": "1.0.0",
+  "description": "Backend testing is essential to ensure that the server-side components of an application function correctly and efficiently. This guide covers various types of backend testing, providing examples and best practices to help you understand and implement these tests effectively.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
