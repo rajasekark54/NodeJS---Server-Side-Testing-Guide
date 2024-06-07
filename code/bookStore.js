@@ -12,4 +12,11 @@ class BookStore {
   }
 }
 
-module.exports = BookStore;
+class Book {
+  constructor(title, author) {
+    this.title = title;
+    this.author = author;
+  }
+}
+
+module.exports = { BookStore, Book };

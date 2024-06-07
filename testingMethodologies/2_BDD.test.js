@@ -3,7 +3,7 @@ Behavior-Driven Development (BDD)
   Definition: BDD is an extension of TDD that encourages collaboration between developers, QA, and non-technical or business participants. It emphasizes examples to clarify requirements and tests.
 */
 
-const BookStore = require('../code/bookStore');
+const { BookStore } = require('../code/bookStore');
 
 describe('BookStore', () => {
   let store;
