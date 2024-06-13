@@ -11,7 +11,7 @@ Cycle:
   Repeat.
 */
 
-const BookStore = require('../code/bookStore');
+const { BookStore } = require('../code/bookStore');
 
 describe('TDD - BookStore', () => {
   let store;
